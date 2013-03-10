@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, ParseXMLDemo!</string>
-    <string name="app_name">Jumin Velib</string>
+    <string name="hello">Hello World, Paris Gaming!</string>
+    <string name="app_name">Paris Gaming</string>
     <string name="button">Refresh</string>
 </resources>

@@ -1,29 +1,57 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
-    <ImageView
-            android:id="@+id/imageView1"
-            android:layout_width="wrap_content"
+    <RelativeLayout
+            android:layout_width="0dip"
             android:layout_height="wrap_content"
-            android:src="@drawable/carte_de_paris" />
+            android:layout_weight="0.25">
+        <TextView
+                android:id="@+id/placeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:padding="2dp"
+                android:textSize="14dp"
+                android:textColor="#999999"
+                />
+    </RelativeLayout>
 
-    <TextView
-            android:id="@+id/placeName"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:padding="2dp"
-            android:textSize="14dp"
-            android:textColor="#999999"
-            />
 
-    <Button
-            android:id="@+id/bouton"
-            android:layout_width="fill_parent"
+    <RelativeLayout
+            android:layout_width="0dip"
             android:layout_height="wrap_content"
-            android:textColor="@drawable/button_custom"
-            android:text="@string/button" />
+            android:layout_weight="0.5">
+        <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/carte_paris" />
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25">
+        <TextView
+                android:id="@+id/score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:padding="2dp"
+                android:textSize="14dp"
+                android:text="testt"
+                android:textColor="#999999"
+                />
+    </RelativeLayout>
+
+
+    <!--<Button-->
+            <!--android:id="@+id/bouton"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="@drawable/button_custom"-->
+            <!--android:text="@string/button" />-->
 
 </LinearLayout>

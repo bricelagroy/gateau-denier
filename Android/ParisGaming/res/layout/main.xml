@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/carte_de_paris" />
+
+    <TextView
+            android:id="@+id/placeName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:padding="2dp"
+            android:textSize="14dp"
+            android:textColor="#999999"
+            />
+
+    <Button
+            android:id="@+id/bouton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/button_custom"
+            android:text="@string/button" />
+
+</LinearLayout>
